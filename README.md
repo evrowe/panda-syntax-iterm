@@ -13,3 +13,10 @@ An iTerm 2 adaptation of Siamak Mokhtari's [Panda Syntax](https://siamak.github.
 - Click on "Import…"
 - Select the `panda-syntax.itermcolors` file
 - Click on the "Color Presets" menu again and select "panda-syntax"
+
+## Command Line Style
+
+execute the following command in order to apply the panda's customized command line style:
+```
+$ sudo echo 'export PS1="🐼  \u@\W $ "' >> ~/.bash_profile && source ~/.bash_profile
+```
